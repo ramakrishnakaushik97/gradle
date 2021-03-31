@@ -15,7 +15,6 @@
  */
 package org.gradle.testfixtures.internal;
 
-import org.gradle.StartParameter;
 import org.gradle.api.internal.BuildDefinition;
 import org.gradle.api.internal.StartParameterInternal;
 import org.gradle.configuration.GradleLauncherMetaData;

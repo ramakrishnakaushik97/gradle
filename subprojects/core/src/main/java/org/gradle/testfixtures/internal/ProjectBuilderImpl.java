@@ -104,7 +104,7 @@ public class ProjectBuilderImpl {
         final File projectDir = prepareProjectDir(inputProjectDir);
         final File homeDir = new File(projectDir, "gradleHome");
         File userHomeDir = gradleUserHomeDir == null ? new File(projectDir, "userHome") : FileUtils.canonicalize(gradleUserHomeDir);
-        StartParameter startParameter = new StartParameterInternal();
+        StartParameterInternal startParameter = new StartParameterInternal();
         startParameter.setGradleUserHomeDir(userHomeDir);
         NativeServices.initialize(userHomeDir);
 

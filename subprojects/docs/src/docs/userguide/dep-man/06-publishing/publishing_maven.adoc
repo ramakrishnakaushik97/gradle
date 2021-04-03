@@ -296,4 +296,10 @@ subprojects {
 }
 ----
 =====
+
+[[publishing_maven:deferred_configuration]]
+== Does not support `snapshot` as part of the version
+
+From Gradle 6.x, using `snapshot` as the version qualier for the release artifact is not supported.  You can use another suffix than snapshot case insensitive.
+
 ====
